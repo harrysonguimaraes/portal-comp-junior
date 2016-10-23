@@ -1,0 +1,10 @@
+#slider{
+	height: 350px;
+}
+
+	#slider img{
+		z-index: 1;
+		position: absolute;
+		height: 350px;
+		width: 100%;
+	}

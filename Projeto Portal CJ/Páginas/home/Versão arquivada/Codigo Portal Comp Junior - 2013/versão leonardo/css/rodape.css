@@ -1,0 +1,84 @@
+@font-face {
+	font-family: YK-ExtraLight;
+	src: url('fonts/YanoneKaffeesatz-ExtraLight.ttf');
+}
+
+@font-face{
+	font-family: YK-Bold;
+	src: url('fonts/YanoneKaffeesatz-Bold.ttf');
+}
+
+@font-face{
+	font-family: YK-Regular;
+	src: url('fonts/YanoneKaffeesatz-Regular.ttf');
+}
+
+*{margin:0;
+  padding:0;
+  list-style:none;
+}
+
+.rodapeSuperior{
+  background-color:#666;
+  height: 200px;
+}
+
+.rodapeApoio{
+	
+}
+
+.rodapeApoio img{
+	max-width: 100px;
+	margin-left: 70px;
+}
+
+.rodapeApoio h2{
+	font-family: YK-ExtraLight, sans-serif;
+	color: rgb(201, 201, 201);
+	letter-spacing: 1px;
+	font-size:30px;
+	text-align: center;
+	margin-left: 30px;
+}
+
+.linhaDivisoria{
+	border-left: solid 1px #999;
+	float: left;
+	height: 200px;
+}
+
+.rodapeLocalizacao{
+	height: 198px;
+	float: left;
+	width: 355px;
+}
+
+.imagemLocalizacao{
+	float:left;
+	margin-left:30px;	
+}
+
+.textoLocalizacao{
+	float:left;
+	margin-left: 10px;
+}
+
+.rodapeLocalizacao h2{
+  font-family: YK-ExtraLight, sans-serif;
+  color: rgb(201, 201, 201);
+  letter-spacing: 1px;
+  font-size:30px;
+  margin-left:30px;
+}
+
+.rodapeLocalizacao p{
+  font-family: YK-ExtraLight, sans-serif;
+  color:#FFF;
+  font-size:15px;
+  letter-spacing:1px;  
+  line-height: 11px;
+}
+
+.rodapeLocalizacao img{
+  
+}

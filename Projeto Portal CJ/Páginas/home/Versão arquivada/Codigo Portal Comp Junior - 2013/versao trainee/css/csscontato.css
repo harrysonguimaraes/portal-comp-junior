@@ -1,0 +1,214 @@
+.wrap{	
+	width: 784px; 
+	min-height: 670px; 
+}
+
+.texto_contatos {
+	margin-top: 10px;
+	font-size: 1.300em;
+	color: #006666;
+	text-align: justify;
+}
+	.texto_contatos p{
+		font-family: YK-Regular;
+		text-align: center;
+		margin-top: 15px;		
+		color:#434343;
+		font-size: 21px;
+		padding-bottom: 7px;
+	}
+
+	.texto_contatos h1{
+		font-family: YK-Bold;
+		color:#006666;
+		font-size: 2.800em;
+
+	}
+
+#envioEmail{
+	margin-top: 15px;
+	height: 40px;
+	width: 760px; 	
+	border-radius: 6px 6px 6px 6px;
+	-webkit-border-radius: 6px 6px 6px 6px;
+  	-moz-border-radius: 6px 6px 6px 6px;
+  	text-align: center;	
+	font-family: YK-ExtraLight;
+	font-size: 1.200em; 	
+}
+	#envioEmail p{
+		font-weight: bold;
+		padding-top: 9px;
+		color: white;
+	}
+
+#formulario{
+	margin-top: 25px;	
+}
+
+#dados{	
+	width: 280px;
+	float: left;
+}
+	#dados a{
+		text-decoration: none;
+	}
+
+#mensagem{
+	width: 490px;
+	float: left;
+	margin-top: 0px;
+
+}
+
+.efeito{	
+	background: #1abc9c;
+	height: 40px;
+	width: 265px;
+	-webkit-border-radius: 6px 6px 6px 6px;
+  	-moz-border-radius: 6px 6px 6px 6px;
+  	border-radius: 6px 6px 6px 6px;
+  	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+}
+
+#botoesEnvio{
+	position: absolute;
+	width: 280px;
+	height: 100px;
+	margin-top: 295px;
+	
+}
+
+#resetar{
+	text-align: center;
+	
+	font-family: YK-ExtraLight;
+	font-size: 1.200em;
+}
+	#resetar:hover{
+		background:#006666;
+	}
+
+	#resetar a{
+		width: 265px;
+		text-decoration: none;	
+	}
+	#resetar p{
+		padding-top: 9px;
+		color: white;
+		font-weight: bold;
+		height: 100%;
+	}
+
+#enviar input{
+	margin-top: 13px;
+	text-align: center;	
+	font-family: YK-ExtraLight;
+	font-size: 1.200em; 
+	cursor: pointer;
+	text-decoration: none;
+	border: none;
+	color: white;
+	font-weight: bold;
+}
+
+	#enviar input:hover{
+		background:#006666;
+	}
+
+input#nome{
+	
+	background-image: url(../img/formulario/nome.png);
+	background-repeat: no-repeat;
+	background-position: 8px 12px;
+	padding-left: 30px;
+	margin-bottom: 1.000em;
+	font-family: YK-ExtraLight;
+	font-size: 1.200em;
+	width: 225px;
+}
+
+input#organizacao{
+	background-image: url(../img/formulario/organizacao.png);
+	background-repeat: no-repeat;
+	background-position: 8px 12px;
+	padding-left: 30px;
+	margin-bottom: 1.000em;
+	font-family: YK-ExtraLight;
+	font-size: 1.200em;
+	width: 225px;
+}
+
+input#email{
+	background-image: url(../img/formulario/email.png);
+	background-repeat: no-repeat;
+	background-position: 8px 12px;
+	padding-left: 30px;
+	margin-bottom: 1.000em;
+	font-family: YK-ExtraLight;
+	font-size: 1.200em;
+	width: 225px;
+}
+
+input#telefone{
+	background-image: url(../img/formulario/telefone.png);
+	background-repeat: no-repeat;
+	background-position: 8px 12px;
+	padding-left: 30px;
+	margin-bottom: 1.000em;
+	font-family: YK-ExtraLight;
+	font-size: 1.200em;
+	width: 225px;
+}
+
+input#telefone_alt{
+	background-image: url(../img/formulario/telefone.png);
+	background-repeat: no-repeat;
+	background-position: 8px 12px;
+	padding-left: 30px;
+	margin-bottom: 1.000em;
+	font-family: YK-ExtraLight;
+	font-size: 1.200em;
+	width: 225px;
+}
+
+input#assunto{
+	background-image: url(../img/formulario/assunto.png);
+	background-repeat: no-repeat;
+	background-position: 8px 12px;
+	padding-left: 30px;
+	margin-left: 1.000em;
+	margin-bottom: 1.000em;	
+	font-family: YK-ExtraLight;
+	font-size: 1.200em;
+	width: 425px;
+}
+
+textarea#texto{
+	background-image: url(../img/formulario/mensagem.png);
+	background-repeat: no-repeat;
+	background-position: 8px 12px;
+	padding-left: 2.000em;
+	margin-left: 1.000em;
+	font-family: YK-ExtraLight;
+	font-size: 1.200em;
+	width: 410px;
+	height: 313px;
+
+	resize:none;
+}
+
+#observacao{
+	float: right;	
+	margin-right: 21px;
+	margin-top: 3px;
+}
+
+#observacao h3{		
+		font-family: YK-Regular;
+		font-size: 0.900em;
+		color:#434343;
+	}

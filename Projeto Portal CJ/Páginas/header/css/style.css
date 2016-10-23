@@ -1,0 +1,142 @@
+/*----------------------------------------------------------Fontes----------------------------------------------------------*/
+@font-face {
+	font-family: YK-ExtraLight;
+	src: url('../fonts/YanoneKaffeesatz-ExtraLight.ttf');
+}
+
+@font-face {
+	font-family: YK-Bold;
+	src: url('../fonts/YanoneKaffeesatz-Bold.ttf');
+}
+
+@font-face {
+	font-family: YK-Regular;
+	src: url('../fonts/YanoneKaffeesatz-Regular.ttf');
+}
+
+/*-----------------------------------------------------------Geral--------------------------------------------------------------*/
+body{
+	background-color: #ebebeb;
+	font-size: 18px;
+	color: #fff;
+	font-family: YK-ExtraLight;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+/*-------------------------------------------------------Cabeçalho----------------------------------------------------------------*/
+
+/*----------------------------------------------------------MENU----------------------------------------------------------------*/
+
+@media (min-width: 768px){
+    .navbar-nav{
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+        float:none;
+    }/*Conjunto de propriedades usado para centralizar o menu*/
+}
+
+.navbar {
+	border: none;
+}
+
+.navbar-default {
+	background-color: #0095a6; 
+	font-family: YK-ExtraLight;
+	border-radius: 0;/*Necessário pois o menu padrão do Bootstrap aplica um border-radius*/
+	margin-bottom: 0;/*Reset no margin pois no padrão existe uma margin*/
+}
+@media (max-width: 1200px) {
+	.navbar-default {
+  		font-size: 15px;/*Propriedade criada para que o menu não quebre quando a janela estiver pequena e o menu ainda não estiver colapsado*/
+	}
+}
+/*@media (max-width: @screen-sm-max) { ... }*/
+@media (min-width: 769px) and (max-width: 1000px) {
+	.navbar-default {
+  		font-size: 12px;/*Propriedade criada para que o menu não quebre quando a janela estiver pequena e o menu ainda não estiver colapsado*/
+	}
+}
+
+
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+}
+
+.borda-direita{
+  	border-right: 1px solid #00727f;/*Borda existente nos itens do menu*/
+}
+
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav > li > a {
+  		border-right: none;/*Remove a borda direita quando o menu estiver colapsado*/
+  		text-align: center;
+	}
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	background-color: #00727f;
+	color: #fff;
+	/*Adiciona uma transição suave ao passar o mouse*/
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-o-transition: 0.7s;
+	-ms-transition: 0.7s;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: white;
+}
+.navbar-default .navbar-toggle:hover {
+	background-color: #00727f;
+	
+}
+/*-----------------------------------------------------------------Fim do menu----------------------------------------------------------------*/
+/*------------------------------------------------------------Faixa cinza após o menu---------------------------------------------------------*/
+
+.faixa-cinza{
+	background-color: #535353;
+	font-family: YK-Regular;
+	height: 50px;
+	padding-top: 12px;
+	margin-left: -16px;
+	margin-right: -16px;
+}
+/*-------------------------------------------------------Logo da comp e horário de atendimento---------------------------------------------*/
+
+
+#fundo-branco{
+	background-color: #fff;
+}
+img[src="img/logocomp.png"]{
+	padding: 60px 0;
+}
+
+.fundo-verde{
+	background-color: #00727f;
+	height: 248px;
+	padding-bottom: 40px;
+	margin-top: -30px;
+	margin-bottom: -30px;
+	padding-top: 20px;
+	-webkit-transition:1s;
+}
+
+.fundo-verde:hover{
+	-webkit-transform:scale(1.03);
+	-webkit-transition:1s;
+	-webkit-box-shadow: #666 0 5px 10px;
+}
+.fundo-verde p.lead{
+	font-size: 26px;
+	font-family: YK-Regular;
+	margin-bottom: -6px;
+
+}
+.fundo-verde p.lead+p{
+	margin-bottom: 70px;
+}
+
+

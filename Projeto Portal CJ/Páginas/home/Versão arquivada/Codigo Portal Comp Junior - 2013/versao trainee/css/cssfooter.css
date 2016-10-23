@@ -1,0 +1,181 @@
+/*Seção que centraliza todo o conteúdo do footer*/
+#footerSuperiorCentro{
+	width: 960px; 
+	margin:0 auto;
+}
+
+/* Seção onde ficarão o footer principal*/
+#footerSuperior{
+	background-color: #666;
+	height: 200px;
+	width: auto;
+}
+
+	#footerSuperior img{
+		float: left;
+	}
+
+	#footerSuperior h2,#footerSuperior h3{
+	font-family: YK-ExtraLight, sans-serif;	
+	color: #c9c9c9;
+	letter-spacing: 1px;
+	font-size: 30px;
+}
+
+/* Seção da esquerda do footer principal*/
+#footerEsquerda{
+	height: 130px;
+	float: left;
+	width: 550px;
+	overflow: hidden;
+	margin-top: 30px;
+	/*margin-bottom: 50px;*/
+}
+	#footerEsquerda h2{
+		text-align: center;
+	}
+	#footerEsquerda img{
+		max-width: 183px;
+	}
+
+/* Seção da direita do footer principal*/
+#footerDireita{
+	height: 198px;
+	float: left;
+	width: 355px;
+}
+	/*Imagem de balão que fica junto à localização*/
+	#footerDireita h2{
+		padding-top: 30px;
+		margin-left: 40px;
+	}
+	#footerDireita img{
+		margin-left: 40px;
+		margin-right: 10px;
+	}
+
+
+/* Div para agrupamento da localização da empresa*/
+#localizacao{
+	float: left;
+}
+	/* Div para agrupamento da localização da empresa*/
+	#localizacao h3{
+		font-size: 15px;
+		color: white;
+	}
+
+#linha{
+	border-left: solid 1px #999;
+	float: left;
+	height: 200px;
+}
+
+/*Seção que centraliza o footer secundário*/
+#footerInferiorCentro{
+	background-color: #999999;
+	margin:0 auto;
+	width:960px;	
+	padding-left: 40px;	
+}
+
+/* Footer secundário*/
+#footerInferior{
+	background-color: #999999;
+	height: 50px;
+	width: 100%;
+}
+
+	/* Links do footer secundário*/
+	#footerInferior li a{
+		text-decoration: none;
+		color:white;
+		font-weight: lighter;
+		/*Adiciona uma transição suave ao passar o mouse*/
+		-webkit-transition: 0.3s;
+		-moz-transition: 0.3s;
+		-o-transition: 0.3s;
+		-ms-transition: 0.3s;
+	}
+	#footerInferior li a:hover{
+		text-decoration: none;
+		color:#666666;
+		/*Adiciona uma transição suave ao passar o mouse*/
+		-webkit-transition: 0.3s;
+		-moz-transition: 0.3s;
+		-o-transition: 0.3s;
+		-ms-transition: 0.3s;
+	}
+	/*Lista com itens do footer inferior*/
+	#footerInferior li{
+		font-family: YK-ExtraLight, sans-serif; 
+		float: left;
+		padding-right: 6px;
+		margin-left: 6px;
+		margin-top: 18px;
+	}
+
+/*Classe que insere borda a direita de cada item da lista no footer secundário*/
+.borda{
+	border-right: 1px solid white;
+}
+
+#menuFooter{
+	padding-left: 20px;
+	float: left;	
+}
+
+#redesSociais{
+	margin-right: 10px;
+	width: 185px;
+	float: left;
+	height: 50px;
+}
+	#redesSociais img{
+		margin-right: 10px;
+		float: left;
+
+	}
+
+/*Botão para área de login de membros*/
+#botaoLogin{
+	/*Margem negativa para subir a div */
+	margin-top: -12px;
+	float: left;
+	padding-left: 40px;
+}
+
+/*Adiciona cor de background aos ícones das redes sociais*/
+img[alt="twitter"]{
+	background: #66ccff;
+	/*Adiciona uma transição suave ao passar o mouse*/
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-o-transition: 0.7s;
+	-ms-transition: 0.7s;	
+}
+img[alt="facebook"]{
+	background: #0066cc;
+	/*Adiciona uma transição suave ao passar o mouse*/
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-o-transition: 0.7s;
+	-ms-transition: 0.7s;	
+}
+img[alt="linkedin"]{
+	background: #006699;
+	/*Adiciona uma transição suave ao passar o mouse*/
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-o-transition: 0.7s;
+	-ms-transition: 0.7s;	
+}
+/* Escurece o fundo das imagens das redes sociais*/
+.hover_azul:hover{
+	background: #003366;
+	/*Adiciona uma transição suave ao passar o mouse*/
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-o-transition: 0.7s;
+	-ms-transition: 0.7s;	
+}

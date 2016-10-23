@@ -1,0 +1,21 @@
+Adicionar seguintes elementos na análise de requisitos do projeto portal comp junior
+
+-> Justificativas (SIM)
+-> Diferentes administradores
+	-> Meus dados
+	-> Contato dos membros
+
+
+Administradores:
+
+2 níveis:
+
+Nível 1 (Comp Junior) 
+	-> Manter qualquer dado do site
+
+Nível 2 (membros) 
+	-> Justificativa
+	-> Visualizar contato dos membros
+	-> Editar perfil
+	-> Visualizar horário dos membros
+

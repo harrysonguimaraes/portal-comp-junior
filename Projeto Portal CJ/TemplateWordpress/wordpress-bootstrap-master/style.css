@@ -1,0 +1,568 @@
+/*
+Theme Name: Template Comp Júnior
+Theme URI: http://www.compjunior.com.br
+Description: Template para o portal da empresa júnior de computação Comp Júnior.
+Version: 1.0
+Author: Comp Júnior
+Author URI: http://www.compjunior.com.br
+Tags: black, white, one-column, two-columns, flexible-width, custom-background, custom-colors, custom-menu, full-width-template, theme-options
+License: Comercial
+*/
+
+
+/*----------------------------------------------------------Fontes----------------------------------------------------------*/
+@font-face {
+	font-family: YK-ExtraLight;
+	src: url('library/fonts/YanoneKaffeesatz-ExtraLight.ttf');
+}
+
+@font-face {
+	font-family: YK-Bold;
+	src: url('library/fonts/YanoneKaffeesatz-Bold.ttf');
+}
+
+@font-face {
+	font-family: YK-Regular;
+	src: url('library/fonts/YanoneKaffeesatz-Regular.ttf');
+}
+
+/*-----------------------------------------------------------Geral--------------------------------------------------------------*/
+body{
+	background-color: #ebebeb;
+	font-size: 16px;
+	color: #fff;
+	font-family: YK-ExtraLight;
+    padding-top: 50px;
+    
+}
+
+/*-------------------------------------------------------Cabeçalho----------------------------------------------------------------*/
+
+/*----------------------------------------------------------MENU----------------------------------------------------------------*/
+
+@media (min-width: 768px){
+    #cabecalho .navbar-nav{
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+        float:none;
+    }/*Conjunto de propriedades usado para centralizar o menu*/
+}
+
+#cabecalho .navbar {
+	border: none;
+	font-size: 18px;
+}
+
+#cabecalho .dropdown-menu{
+	padding: 0;
+}
+
+#cabecalho .dropdown-menu a{
+	font-size: 16px;
+    color: #fff !important;
+}
+
+#cabecalho .dropdown-menu,
+#cabecalho .navbar-default,
+#cabecalho .navbar-default a {
+	background-color: #0095a6; 
+	font-family: YK-ExtraLight;
+	border-radius: 0;/*Necessário pois o menu padrão do Bootstrap aplica um border-radius*/
+	margin-bottom: 0;/*Reset no margin pois no padrão existe uma margin*/
+    color: #fff;
+}
+@media (max-width: 1200px) {
+	#cabecalho .navbar-default {
+  		font-size: 18px;/*Propriedade criada para que o menu não quebre quando a janela estiver pequena e o menu ainda não estiver colapsado*/
+	}
+}
+/*@media (max-width: @screen-sm-max) { ... }*/
+@media (min-width: 769px) and (max-width: 1000px) {
+	#cabecalho .navbar-default {
+  		font-size: 12px;/*Propriedade criada para que o menu não quebre quando a janela estiver pequena e o menu ainda não estiver colapsado*/
+	}
+}
+
+#cabecalho .navbar-default .navbar-nav > li > a {
+	color: #fff;
+}
+
+#cabecalho .borda-direita-Menu{
+  	border-right: 1px solid #00727f;/*Borda existente nos itens do menu*/
+}
+
+@media (max-width: 767px) {
+	#cabecalho .navbar-default .navbar-nav > li > a {
+  		border-right: none;/*Remove a borda direita quando o menu estiver colapsado*/
+  		text-align: center;
+	}
+    #cabecalho .dropdown-menu a{
+	   text-align: right;
+    }
+}
+
+#cabecalho .navbar-default .navbar-nav > .open > a,
+#cabecalho .navbar-default .navbar-nav > .open > a:houver,
+#cabecalho .navbar-default .navbar-nav > .open > a:focus {
+    background-color: #00727f !important;
+	color: #fff !important;
+	/*Adiciona uma transição suave ao passar o mouse*/
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-o-transition: 0.7s;
+	-ms-transition: 0.7s;
+}
+
+
+#cabecalho .navbar-default .navbar-nav >.active > a, /* Precisou para adicionar quando a página esta ativa */
+#cabecalho .navbar-default .navbar-nav >.active > a:hover,
+#cabecalho .navbar-default .navbar-nav >.active > a:focus,
+#cabecalho .navbar-default .navbar-nav > li > a:hover,
+#cabecalho.navbar-default .navbar-nav > li > a:focus,
+#cabecalho .navbar-default ul li a:hover {
+	background-color: #00727f !important;
+	color: #fff !important;
+	/*Adiciona uma transição suave ao passar o mouse*/
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-o-transition: 0.7s;
+	-ms-transition: 0.7s;
+}
+#cabecalho .navbar-default .navbar-toggle .icon-bar {
+	background-color: white;
+}
+#cabecalho .navbar-default .navbar-toggle:hover {
+	background-color: #00727f;
+	
+}
+/*-----------------------------------------------------------------Fim do menu----------------------------------------------------------------*/
+/*------------------------------------------------------------Faixa cinza após o menu---------------------------------------------------------*/
+
+.faixa-cinza{
+	background-color: #535353;
+	font-family: YK-Regular;
+	height: 50px;
+	padding-top: 12px;
+}
+
+.migalha{
+    color: #fff;
+    padding: 0 12em 0 12em;
+}
+a{
+    color: #fff !important;
+}
+/*-------------------------------------------------------Logo da comp e horário de atendimento---------------------------------------------*/
+
+
+#fundo-branco{
+	background-color: #fff;
+}
+
+.container-fluid{
+    padding-right: 0px !important;
+}
+
+img[src="img/logocomp.png"]{
+}
+
+.logoid {
+    padding: 60px 0;
+}
+
+.fundo-verde{
+	background-color: #00727f;
+	height: 248px;
+	padding-bottom: 40px;
+	margin-top: -30px;
+	margin-bottom: -30px;
+	padding-top: 20px;
+    width: 22em;
+    -webkit-transition:1s;
+}
+
+.fundo-verde:hover{
+	-webkit-transform:scale(1.03);
+	-webkit-transition:1s;
+	-webkit-box-shadow: #666 0 5px 10px;
+}
+
+.fundo-verde p.lead{
+	font-size: 26px;
+	font-family: YK-Regular;
+	margin-bottom: -6px;
+
+}
+
+.fundo-verde p.lead+p{
+	margin-bottom: 70px;
+}
+
+.fundo-verde .glyphicon{
+	padding-right: 20px;
+}
+
+#cabecalho{
+	padding-bottom: 0px;
+}
+
+/*---------------------------------------------------------A Empresa------------------------------------------------------------*/
+
+.conteudoP{
+    margin: 100px 0 100px 0;
+}
+.texto {
+	font-family: YK-ExtraLight;
+	margin-left: 177px;
+    color: black;
+}
+
+.titulo {
+	color: #066;
+	font-family: YK-Bold;
+	font-size: 4em;
+}
+
+.subtitulo {
+	margin-bottom: 60px;
+	font-size: 22px;
+    color: black;
+}
+/*-------------------------------------------------------Fim A Empresa----------------------------------------------------------*/
+/*------------------------------------------------------------Página  Equipe --------------------------------------------------*/
+
+#fundo-branco{
+	background-color: #fff;
+}
+
+.area-titulo{
+    color: #000;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.foto-membro{
+	width: 200px;
+}
+
+
+.nomeEquipe{
+	color: #0095a6;
+	font-size: 29px;
+	font-family: YK-Regular;
+	margin-bottom: 2px;
+}
+
+.cargo{
+	font-size: 24px;
+	font-family: YK-Regular;
+	margin-bottom: 2px;
+    color: #000;
+}
+
+.texto-membro{
+	font-size: 19px;
+	font-family: YK-Regular;
+	margin-bottom: 4px;
+    color: #000;
+}
+
+.espaco-membros{
+	margin-bottom: 20px;
+}
+
+#titulo-equipe{
+	font-size: 25px;
+	margin-top: -10px;
+}
+#titulo-cargo{
+	font-size: 30px;
+	font-family: YK-Regular;
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+
+#membros{
+	margin-top: 11px;
+}
+
+/*---------------------------------------------------Fim da página------------------------------------------*/
+
+/*-------------------------------------------------------Contato----------------------------------------------*/
+
+input[type="reset"],
+input[type="submit"]{
+	font-size: 22px;
+}
+textarea[rows="11"]{
+	padding-bottom: 29px;
+}
+
+.subtituloC {
+	margin-bottom: 60px;
+	font-size: 22px;
+    color: #000;
+}
+
+.btn-verde {
+	margin-bottom: 8px;
+	background-color: #3c9;
+	color:white;
+	border: solid 2px #3c9;
+	border-radius: 0;/*Excluir essa linha, caso resolva deixar as bordar arredondadas*/
+
+}
+.btn-verde:hover,
+.btn-verde:focus {
+	background-color: white;
+	color:#3c9;
+	border: solid 2px #999 !important;
+}
+
+.padding {
+	padding-bottom: 14px;
+}
+
+.borda-cinza {
+	border: solid 2px #999 !important;
+}
+
+.form-control {
+  	padding-right: 30px;
+  	text-indent: 23px;
+  	border-radius: 0;/*Excluir essa linha, caso resolva deixar as bordar arredondadas*/
+  	font-size: 18px;
+}
+
+form .glyphicon { 
+  	left: 0;
+  	color: #000;
+  	padding: 0px 9px;
+    top: -52px;
+}
+
+form .glyphicon-comment { 
+  	top: -1px;
+}
+
+form .glyphicon-pencil { 
+  	top: 72px !important;
+}
+
+form .espacoAssunto{
+    margin-bottom: -24.8px;
+}
+
+form .espaco{
+    margin-bottom: -23px;
+}
+
+form .espacoBot{
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+form .espacoMensagem{
+    margin-top: 24px !important;
+}
+
+form .espacoObs{
+    margin-top: -27px !important;
+}
+
+#mensagem {
+	clear: both;
+	top: 67px;
+	left: 17px;
+	position: absolute;
+}
+
+.wpcf7-validation-errors{
+    background: #CC0033;
+    border-radius: 10px !important;
+    border: 2px solid #009999 !important;
+    margin-top: 4em !important;
+    height: 50px !important;
+    align-items:center;
+}
+
+.invalid{
+    align-content: center !important;
+}
+
+.Error1{
+    text-align:center;
+    position:absolute;
+    font-size: 1.5em !important;
+    left: 50px;
+    right: 50px;
+}
+
+@media (max-width: 767px) {
+    .wpcf7-validation-errors{
+            height: 60px !important;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1000px) {
+        .wpcf7-validation-errors{
+            height: 50px !important;
+    }
+
+}
+
+@media (max-width: 1200px) {
+        .wpcf7-validation-errors{
+            height: 50px !important;
+    }
+
+}
+
+@media (min-width: 768px){
+        .wpcf7-validation-errors{
+            height: 50px !important;
+    }
+
+}
+
+
+/*---------------------------------------------------Fim da Contato ------------------------------------------*/
+
+/*-------------------------------------------------------Footer---------------------------------------------*/
+#footer-principal { 
+	background-color: #666; 
+	font-family: YK-ExtraLight;
+	font-size: 16px;
+	color: #ccc;
+}
+
+#footer-secundario { 
+	background-color: #999; 
+	font-family: YK-ExtraLight;
+	font-size: 16px;
+	color: #ccc;
+}
+
+.borda-direita {
+	border-right: 1px solid #ccc;
+	padding-right: 40px;
+}
+#localizacao{
+	padding-bottom: 30px; 
+}
+#icone-localizacao {
+	margin-left: -26px;
+}
+
+@media only screen and (min-width : 150px) and (max-width : 992px) {
+	.borda-direita {
+		border-right: 1px solid #666;
+	}
+
+	#localizacao {
+		padding-bottom: 0;
+	}
+	
+}
+.padding-fundo {
+	padding-bottom: 40px;
+}
+
+/*Adiciona cor de background aos ícones das redes sociais*/
+img[alt="facebook"],
+img[alt="linkedin"] {
+	/*Adiciona uma transição suave ao passar o mouse*/
+		transition: 0.7s;
+	-webkit-transition: 0.7s;
+	   -moz-transition: 0.7s;
+	     -o-transition: 0.7s;
+	    -ms-transition: 0.7s;
+	margin-left: 8px;	
+}
+
+img[alt="facebook"] {
+	background: #0066cc;
+}
+img[alt="linkedin"] {
+	background: #006699;
+	margin-right: 80px;	
+}
+@media only screen and (min-width : 150px) and (max-width : 992px) {
+	img[alt="linkedin"] {
+		margin-right: 8px;
+	}
+	
+}
+/* Escurece o fundo das imagens das redes sociais*/
+.hover-azul:hover {
+	background: #003366;
+	/*Adiciona uma transição suave ao passar o mouse*/
+			transition: 0.7s;
+	-webkit-transition: 0.7s;
+	   -moz-transition: 0.7s;
+	     -o-transition: 0.7s;
+	    -ms-transition: 0.7s;	
+}
+#membros-mobile {
+	margin-top: -13px;
+}
+#membros-desktop {
+	position: absolute;
+	margin-top: -12px;
+	margin-left: 870px;
+}
+
+#footer > .navbar {
+	border: none;
+	min-height: 49px
+}
+
+#footer .navbar-default {
+	background-color: #999; 
+	font-family: YK-ExtraLight;
+	border-color: #999;
+	border-radius: 0;
+	margin: 0;
+	padding: 0;
+}
+
+#footer .navbar-default .navbar-nav > li > a {
+	color: #fff;
+	padding: 0 6px;
+ 	margin-top: 15px;
+  	border-right: 1px solid white;
+}
+
+@media (max-width: 767px) {
+	#footer .navbar-default .navbar-nav > li > a {
+  		border-right: 1px solid #999;
+	}
+}
+#footer a{
+	color: #fff;
+	background-color: #999;
+}
+#footer a:hover{
+	color: #666;
+	background-color: #999;
+}
+
+#footer .navbar-default .navbar-nav > li > a:hover,
+#footer .navbar-default .navbar-nav > li > a:focus{
+	color: #666;
+	/*Adiciona uma transição suave ao passar o mouse*/
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	-ms-transition: 0.3s;
+}
+#footer .navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+@media only screen and (min-width : 150px) and (max-width : 992px) {
+	.centro {
+		text-align: center;
+	}
+}

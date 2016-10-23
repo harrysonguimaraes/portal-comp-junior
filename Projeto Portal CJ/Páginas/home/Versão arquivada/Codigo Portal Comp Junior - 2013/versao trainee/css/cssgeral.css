@@ -1,0 +1,113 @@
+/*
+Verde5S:#8DBF43;
+Vermelho5S:#CC113A;
+AMARELO: #F3C709;
+AZUL: #1893A6;
+LARANJA:#E6781E;
+*/
+
+body{
+	background-color: #eaeaea;
+}
+
+/*CARACTERISTICAS DA TIPOGRAFIA*/
+.bold{font-family:'Yanone Kaffeesatz'; font-weight: 700;}
+.regular{font-family:'Yanone Kaffeesatz'; font-weight: 400;}
+.light{font-family:'Yanone Kaffeesatz'; font-weight: 300;}
+.extralight{font-family:'Yanone Kaffeesatz'; font-weight: 200;}
+
+/*CORES*/
+.green {color:#006666}
+.green2{color:#009999}
+.green3{color:#33cc99}
+.green4{color:#cccc00}
+.red{color:#cc0033}
+.red2{color:#ff6633}
+.pink{color:#cc6666}
+.gray{color: #333}
+.gray2{color:#666}
+.gray3{color:#999}
+.gray4{color: #ccc}
+/*.gray5{color: #}*/
+
+/*TITULOS*/
+/*Projetos / Blog*/
+h1{
+	color: #999999;
+	font-family:YK-ExtraLight; 
+	font-size: 2em;
+}
+
+/*Subtítulos, Projetos Recentes, Depoimentos, Localização e Apoio*/
+h2{
+	color: white;
+	font-family:YK-ExtraLight; 
+	font-size: 1.5em;
+}
+
+/*Títulos de Posts Em Blog, Clientes*/
+h3{
+	color: white;
+	font-family: YK-Bold;
+	font-size:1.3em;
+}
+
+/*Projetos, Depoimentos*/
+h4{
+	color: #666666;
+	font-family:YK-Regular; 
+	font-size: 1em;
+}
+
+/*Blog, Projetos*/
+h5{
+	color: white;
+	font-family:YK-Regular; 
+	font-size: 0.9em;
+}
+
+/* Fontes */
+@font-face {
+	font-family: YK-ExtraLight;
+	src: url('font/YanoneKaffeesatz-ExtraLight.ttf');
+}
+
+@font-face{
+	font-family: YK-Bold;
+	src: url('font/YanoneKaffeesatz-Bold.ttf');
+}
+
+@font-face{
+	font-family: YK-Regular;
+	src: url('font/YanoneKaffeesatz-Regular.ttf');
+}
+
+/*Seção que engloba todo o conteúdo*/
+section.container{	
+	min-height: 680px; 	
+}
+
+.fundoBranco{
+	width: 1100px; 
+	margin: 0 auto;
+	background: #F2F2F2;
+}
+
+.wrap{
+	margin: 0 auto;
+	padding-top: 30px;
+	width: 784px; 
+	min-height: 530px; 
+}
+
+.sucesso{
+	background-color: #8DBF43;
+	height: 100%;
+	border:2px solid #BDC3C7;
+}
+
+.falha{
+	background-color: #CC113A;
+	height: 100%;
+	border:2px solid #BDC3C7;
+}

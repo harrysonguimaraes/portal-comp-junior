@@ -1,0 +1,152 @@
+nav {
+	height: 3.125em;
+	background-color: #1693A7;
+}
+
+	nav ul{
+		height: 3.000em;
+		width: 60.000em;
+		margin: auto;
+		margin-left:auto;
+		margin-right:auto;
+		text-align: center;
+		border-bottom: 0.063em solid #666666;
+		padding: 0.830em;
+	}
+
+	nav ul li{
+		border-right: 0.070em solid #666666 ;
+		display: inline;
+		font-family: YK-ExtraLight;
+		font-size: 1.313em;
+		padding: 0.875em 0.000em 0.770em 0.000em; 
+		margin-left: -4px;
+	}
+
+	nav ul li a{	
+		padding: 0.875em 0.875em 0.770em 0.775em;
+		color: white;
+		-webkit-transition: 0.5s;
+		-moz-transition: 0.5s;
+		-o-transition: 0.5s;
+		-ms-transition: 0.5s;
+	}
+
+	nav ul li a:hover{
+		background-color: #004D57;
+		text-decoration: none;
+		-webkit-transition: 0.5s;
+		-moz-transition: 0.5s;
+		-o-transition: 0.5s;
+		-ms-transition: 0.5s;	
+		padding: 0.875em 0.875em 0.770em 0.775em;
+	}
+
+	nav ul li a:link{
+		text-decoration: none;
+		padding: 0.875em 0.875em 0.770em 0.775em;
+	}
+
+#home{
+	border-left: 0.063em solid #666666;
+}
+
+#faixa_cinza{
+	background-color: #666666;
+	height: 2.500em;
+}
+
+
+header{
+	background-color: #cccccc; 
+	width: 100%;
+}
+
+/*caixa embaixo*/
+#headerSite{
+	width: 960px;
+	margin: 0 auto;
+	height: 10.000em;
+	background-color: #cccccc; 	
+}
+
+	#headerSite div ul li {
+		padding-left: 0.500em;
+		padding-top: : 0.625em;
+		padding-bottom: 0.9000em;
+	}
+
+#complogo {	
+	float: left;
+	margin-top: 2.700em;
+}
+
+	#complogo a{	
+		text-decoration: none;
+	}
+
+#cabecalho{
+	z-index:2;
+	float: right;
+	height: 13.500em;
+	margin-top: -1.65em;
+	font-family: YK-ExtraLight;
+	color: white;	
+	position: relative;
+}
+
+#sombras{
+	position: absolute;
+	width: 2em;
+	float: left;
+}
+
+#triangulo_acima{
+	float:left;
+	margin: 0.1em;
+	margin-left: 0.1em;
+}
+
+#triangulo_abaixo{
+	float:left;
+	margin-top:09.890em;
+	margin-left: 0.1em;
+}
+
+#quadrado_topo{
+	background-color: #004D57;
+	margin-left: 1.65em;
+	margin-top: 0.1em;
+	padding-right: 20px;
+	width: 100%;
+	height: 13.17em;
+}
+
+#horario_at {
+	font-family: YK-Regular;
+	font-size: 1.550em;
+	padding: 1.00em 0.000em 0.000em 0.700em;
+}
+
+#seg_a_sex {
+	font-family: YK-ExtraLight;
+	font-size: 1.125em;
+	padding: 0.300em 0.000em 0.000em 0.938em;	
+	margin-top: 0.099em;	
+}
+
+#caixa_telemail {
+	font-family:  YK-ExtraLight;
+	font-size: 1.000em;
+	padding-left: 0.938em;
+	margin-top: 2.500em;
+}
+
+	#icone_telefone img{
+		margin-top: 0.500em;
+		margin-right: 0.900em;
+	}
+
+#icone_email img{
+	margin-right: 0.900em;
+}

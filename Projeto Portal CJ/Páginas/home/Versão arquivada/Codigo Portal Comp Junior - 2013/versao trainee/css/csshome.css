@@ -1,0 +1,348 @@
+/*Seção que centraliza todo o conteúdo*/
+.wrap{
+	background-color: #ebebeb; 
+	width: 784px; 
+	height: 530px; 
+}
+
+/*Seção que engloba todo o conteúdo de projetos*/
+section.projetos{
+	float: left;
+	width: 45%;
+	height: 450px; 
+}
+
+/*Seção que engloba o Título 'Projetos'*/
+section.tituloProjetos h1{
+	font-weight: lighter;
+	padding: 15px 0px 20px 0px;
+}
+
+/*Seção de fundo 'vermelho' que engloba o texto 'Projetos Recentes' */
+section.projetosRecentes{
+	background-color: #cc0033;	
+	width: 95.1%;
+	padding: 6.0px 0px 6.0px 10px;
+	/*Borda Arredondada - Adaptada a todos os navegadores*/
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	-webkit-border-top-left-radius: 7px;
+	-webkit-border-top-right-radius: 7px;
+	-moz-border-radius-topleft: 7px;
+	-moz-border-radius-topright: 7px;
+}
+
+	section.projetosRecentes h2{
+		font-weight: lighter;
+	}
+
+/*Seção de fundo dos Posts na área Projetos, Cor de Background: #ebebeb */
+section.conteudoProjetos{
+	height: 100px;
+	width: 97.4%;
+	border: 1px solid #cccccc;
+	border-top: 0px;
+}
+
+/*Seção de fundo dos Posts na área Projetos, Cor de Background: white */
+section.conteudoProjetosBranco{
+	background-color: white;
+	height: 100px;	
+	width: 97.4%;
+	border: 1px solid #cccccc; /*Tirar a borda do topo*/
+	border-top: 0px;
+}
+
+/*Fundo da Imagem utilizada a esquerda do Post */
+section.miniaturaProjetos{
+	float: left;
+	width: 34%;
+	height: 100%;
+}
+
+/*Imagem utilizada à esquerda do Post */
+.miniaturaPostProjeto1{
+	height: 75%;
+	width: 60%;
+	/*Alinhamento da imagem*/
+	margin: 13px 25.3px;
+}
+
+/*Fundo do texto que se encontra ao lado direito do Post */
+section.descricaoProjetos{
+	float: right;
+	width: 65%;
+	height: 100%;
+	font-family:YK-Regular; 
+	font-weight: 400;
+}
+	.descricaoProjetos p{
+		color: #cccccc;
+		margin: 0.7px 0px 4px 0px;
+	}
+
+/*Texto que se encontra ao lado direito do Post*/
+.textoDescricaoProjetos{	
+	margin: 16px 0px 16px 9px;
+}
+	.textoDescricaoProjetos h4{
+		font-weight: normal;
+		max-height: 30px;
+		overflow: hidden;
+	}
+	.textoDescricaoProjetos p{
+		padding-top: 4px;
+	}
+
+.botaoProj{
+	width: 125px;
+	height: 25px;
+}
+	.botaoProj a{
+		text-decoration: none;
+		border-style: none;
+	}
+
+.botaoTexto{
+	background-color: #cc0033; 
+	float: left;
+	width: 98px;
+	height: 25px;
+}
+
+	.botaoTexto p{
+		color: white;
+		/*margin-top: 0.5px;*/
+		margin-top: 0.01em;
+		margin-left: 0.50em;
+	}
+
+	.botaoTexto p:hover{
+		color: #cccccc;
+	}
+
+.botaoSeta{
+	background-color: #ED5A68;
+	float: left;
+	width: 23px;
+	height: 25px;
+}
+
+	.botaoSeta p{
+		color: white;
+		margin-top: 0.01em;
+		margin-left: 0.55em;
+		font-weight: lighter;	
+	}
+
+/*Link que possui uma imagem de seta do botão 'ver detalhes' */
+.imagemBotaoProjeto1{
+	height: 20px;
+	width: 15px;
+}
+
+/*Seção que engloba todo o conteúdo sobre Blog*/
+section.blog{
+	float: right;
+	width: 45%; 
+}
+
+/*Seção que engloba o título Blog, superior*/
+section.tituloBlog h1{
+	font-weight: lighter;
+	padding: 15px 0px 20px 0px;
+}
+
+section.blogComp h2{
+	font-weight: lighter;
+	padding: 6.0px 0px 6.0px 0px;
+}
+
+/*Seção que engloba o tamanho da área dos posts relacionados a blog */
+section.conteudoBlog{
+	color: white;
+	height: 100%;
+	width: 100%;
+	margin-top: 2.3%;
+}
+
+	section.conteudoBlog a{
+		text-decoration: none; 
+	}
+
+/*Seção que engloba a descrição dos posts*/
+article.postsBlog{
+	width: 100%;
+	
+	margin-top: 6%;
+}
+
+/*Seção que definia o fundo do post, cor de fundo: #33cc99*/
+div.descricaoPost{
+	height: 105px;
+	background-color: #33cc99;
+	width: 100%;
+	height: 105px;
+	overflow: hidden;	
+}
+	.descricaoPost a{
+		color: white;
+		font-family:YK-Bold;
+	}
+
+	.descricaoPost p{
+		font-family:YK-Regular; 
+	}
+
+/*Seção que engloba o texto de título do Post */
+.tituloPostBlog{	
+	float: left;
+	margin: 13px 0px 0px 13px;
+	width: 75%;
+}
+	.tituloPostBlog h3{
+		font-weight: normal;
+	}
+
+/*Seção que engloba o texto abaixo do título dentro do Post*/
+.textoPostBlog{	
+	margin-top: 10px;
+	float: left;
+	height: 50px;
+	margin-left: 13px;
+	text-align: justify;
+	width: 75%;
+	line-height: 15px;	
+	overflow: hidden;
+}
+
+	.textoPostBlog h5{
+		font-weight: normal;	
+	}
+
+/*Seção que engloba o Fundo do botão 'ler', cor de fundo: #00AC85 */
+div.lerPost{
+	background-color: #00AC85;
+	float: right;
+	width: 15%;
+}
+
+	div.lerPost:hover{
+		background-color: #006666;
+	}
+
+	div.lerPost a{
+		text-decoration: none; 
+	}
+
+/*Texto dentro do botão de fundo 'ler' */
+.textoLerPost{
+	margin: 41px 16px;
+}
+
+.linkVisitarBlog{}
+	.linkVisitarBlog h4{
+		color:#009999;
+		margin-top: 4%;
+	}
+
+	.linkVisitarBlog a{
+		text-decoration: none;
+	}
+
+	.linkVisitarBlog h4:hover{ 
+		color: #004D57;
+	}
+
+/*Seção que engloba o fundo da área Depoimentos*/
+section.depoimentos{
+	background: #cccc00;
+	height: 150px; 
+	margin: 0 auto;	
+}
+
+/*Seção que centraliza e fixa as margens da área Depoimentos*/
+section.wrapDepoimentos{
+	margin: 0 auto;
+	width: 784px; 
+}
+
+section.conteudoDepoimentos h4{
+	color: white;
+}
+
+/*Seção que estabelece o título da área Depoimentos*/
+div.tituloDepoimentos{
+	padding-top: 25px;
+}
+
+.descricaoDepoimentos{
+	max-height: 70px;
+	overflow: hidden;
+}
+
+	div.descricaoDepoimentos h4{
+		text-align: justify;
+		padding: 10px 0;
+		line-height: 23px;
+	}
+
+/*Seção que engloba a área do Nome do Cliente*/
+div.dadosClienteDepoimentos{
+	width: 150px;
+	float: left;
+}
+
+/*Seção que engloba o texto 'nome do cliente'*/
+div.clienteDepoimentos{
+	float: left;
+}
+
+/*Seção que engloba o texto 'nome da empresa'*/
+div.empresaCliente{
+	float: right;
+	padding-top: 5px;
+}
+
+.botaoDepo{
+	float: right;
+	height: 23px;
+	font-family:YK-Regular; 
+	border-style: none;
+
+}
+	.botaoDepo a{
+		text-decoration: none;
+		border-style: none;
+	}
+
+.botaoTextoDepo{
+	background-color: #EDEDEC; 
+	float: left;
+	width: 65px;
+	height: 23px;
+}
+
+	.botaoTextoDepo p{
+		color: black;
+		margin-left: 0.60em;
+		margin-top: 3px;
+	}
+
+	.botaoTextoDepo p:hover{
+		color: #666666;
+	}
+
+.botaoSetaDepo{
+	background-color: #666666;
+	float: left;
+	width: 23px;
+	height: 23px;
+}
+
+	.botaoSetaDepo p{
+		color: white;
+		margin-left: 0.55em;
+		margin-top: 2px; 	 	
+		font-weight: lighter;	
+	}

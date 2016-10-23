@@ -1,0 +1,348 @@
+/*----------------------------------------------------------Fontes----------------------------------------------------------*/
+@font-face {
+	font-family: YK-ExtraLight;
+	src: url('../fonts/YanoneKaffeesatz-ExtraLight.ttf');
+}
+
+@font-face {
+	font-family: YK-Bold;
+	src: url('../fonts/YanoneKaffeesatz-Bold.ttf');
+}
+
+@font-face {
+	font-family: YK-Regular;
+	src: url('../fonts/YanoneKaffeesatz-Regular.ttf');
+}
+/*-----------------------------------------------------------Geral--------------------------------------------------------------*/
+
+body { 
+	background-color: #ebebeb; 
+	font-family: YK-ExtraLight;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+}
+/*-------------------------------------------------------Cabeçalho----------------------------------------------------------------*/
+
+/*----------------------------------------------------------MENU----------------------------------------------------------------*/
+
+@media (min-width: 768px){
+    #cabecalho .navbar-nav{
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+        float:none;
+    }/*Conjunto de propriedades usado para centralizar o menu*/
+}
+
+#cabecalho .navbar {
+	border: none;
+	font-size: 18px;
+}
+
+.dropdown-menu{
+	padding: 0;
+}
+
+.dropdown-menu a{
+	font-size: 16px;
+}
+
+
+#cabecalho .navbar-default,
+#cabecalho .navbar-default a {
+	background-color: #0095a6; 
+	font-family: YK-ExtraLight;
+	border-radius: 0;/*Necessário pois o menu padrão do Bootstrap aplica um border-radius*/
+	margin-bottom: 0;/*Reset no margin pois no padrão existe uma margin*/
+	color: #fff;
+}
+
+@media (max-width: 1200px) {
+	#cabecalho .navbar-default {
+  		font-size: 15px;/*Propriedade criada para que o menu não quebre quando a janela estiver pequena e o menu ainda não estiver colapsado*/
+	}
+}
+/*@media (max-width: @screen-sm-max) { ... }*/
+@media (min-width: 769px) and (max-width: 1000px) {
+	#cabecalho .navbar-default {
+  		font-size: 12px;/*Propriedade criada para que o menu não quebre quando a janela estiver pequena e o menu ainda não estiver colapsado*/
+	}
+}
+
+#cabecalho .navbar-default .navbar-nav > li > a {
+	color: #fff;
+}
+
+#cabecalho .borda-direita{
+  	border-right: 1px solid #00727f;/*Borda existente nos itens do menu*/
+}
+
+@media (max-width: 767px) {
+	#cabecalho .navbar-default .navbar-nav > li > a ,
+	.navbar-default .navbar-nav > li > a {
+  		border-right: none;/*Remove a borda direita quando o menu estiver colapsado*/
+  		text-align: center;
+	}
+	.dropdown-menu a{
+	text-align: right;
+}
+}
+
+#cabecalho .navbar-default .navbar-nav > li > a:hover,
+#cabecalho .navbar-default .navbar-nav > li > a:focus,
+#cabecalho .navbar-default ul li a:hover {
+	background-color: #00727f;
+	/*Adiciona uma transição suave ao passar o mouse*/
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-o-transition: 0.7s;
+	-ms-transition: 0.7s;
+}
+#cabecalho .navbar-default .navbar-toggle .icon-bar {
+	background-color: white;
+}
+#cabecalho .navbar-default .navbar-toggle:hover {
+	background-color: #00727f;
+	
+}
+
+/*-----------------------------------------------------------------Fim do menu----------------------------------------------------------------*/
+/*------------------------------------------------------------Faixa cinza após o menu---------------------------------------------------------*/
+
+.faixa-cinza{
+	background-color: #535353;
+	font-family: YK-Regular;
+	height: 50px;
+	padding-top: 12px;
+	margin-left: -16px;
+	margin-right: -16px;
+}
+/*-------------------------------------------------------Logo da comp e horário de atendimento---------------------------------------------*/
+
+#fundo-branco{
+	background-color: #fff;
+}
+img[src="img/logocomp.png"]{
+	padding: 60px 0;
+}
+
+.fundo-verde{
+	background-color: #00727f;
+	height: 248px;
+	padding-bottom: 40px;
+	margin-top: -30px;
+	margin-bottom: -30px;
+	padding-top: 20px;
+	color: white;
+}
+
+.fundo-verde p.lead{
+	font-size: 26px;
+	font-family: YK-Regular;
+	margin-bottom: -6px;
+
+}
+.fundo-verde p.lead+p{
+	margin-bottom: 70px;
+}
+
+.fundo-verde .glyphicon{
+	padding-right: 20px;
+}
+
+#cabecalho{
+	padding-bottom: 80px;
+}
+/*-------------------------------------------------------Fim do cabeçalho---------------------------------------------*/
+/*------------------------------------------------------------Página--------------------------------------------------*/
+
+.area-titulo{
+	text-align: center;
+	margin-top: -1px;
+}
+
+.icone1{
+	margin-left: -4px;
+	width: 200px; 
+	margin-top: 5px;
+}
+
+.icone{
+	margin-left: 9px;
+	width: 190px; 
+}
+
+.nome{
+	color: #535353;
+	font-size: 40px;
+	font-family: YK-Bold;
+	margin-bottom: 4px;
+	margin-top: 29px;
+}
+
+.texto{
+	font-size: 22px;
+	font-family: YK-Bold;
+	margin-bottom: 4px;
+	color: #666;
+	text-align: justify;
+	margin-top: 18px;
+}
+
+.espaco{
+	margin-top: 2px;
+}
+
+#faixa-branca{
+	background-color: #fff;
+	min-height: 100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#titulo{
+	font-size: 38px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	font-family: YK-Bold;
+	color: #00727f;
+}
+
+#descricao{
+	font-family: YK-Regular;
+	font-size: 20px;
+	color: #fff;
+	text-align: justify;
+}
+
+/*---------------------------------------------------Fim da página------------------------------------------*/
+/*-------------------------------------------------------Footer---------------------------------------------*/
+#footer-principal { 
+	margin-top: 80px;
+	background-color: #666; 
+	font-family: YK-ExtraLight;
+	font-size: 16px;
+	color: #ccc;
+}
+#footer-secundario { 
+	background-color: #999; 
+	font-family: YK-ExtraLight;
+	font-size: 16px;
+	color: #ccc;
+}
+.borda-direita {
+	border-right: 1px solid #ccc;
+	padding-right: 40px;
+}
+#localizacao{
+	padding-bottom: 30px; 
+}
+#icone-localizacao {
+	margin-left: -26px;
+}
+
+@media only screen and (min-width : 150px) and (max-width : 992px) {
+	.borda-direita {
+		border-right: 1px solid #666;
+	}
+
+	#localizacao {
+		padding-bottom: 0;
+	}
+	
+}
+.padding-fundo {
+	padding-bottom: 40px;
+}
+
+/*Adiciona cor de background aos ícones das redes sociais*/
+img[alt="facebook"],
+img[alt="linkedin"] {
+	/*Adiciona uma transição suave ao passar o mouse*/
+		transition: 0.7s;
+	-webkit-transition: 0.7s;
+	   -moz-transition: 0.7s;
+	     -o-transition: 0.7s;
+	    -ms-transition: 0.7s;
+	margin-left: 8px;	
+}
+
+img[alt="facebook"] {
+	background: #0066cc;
+}
+img[alt="linkedin"] {
+	background: #006699;
+	margin-right: 80px;	
+}
+@media only screen and (min-width : 150px) and (max-width : 992px) {
+	img[alt="linkedin"] {
+		margin-right: 8px;
+	}
+	
+}
+/* Escurece o fundo das imagens das redes sociais*/
+.hover-azul:hover {
+	background: #003366;
+	/*Adiciona uma transição suave ao passar o mouse*/
+			transition: 0.7s;
+	-webkit-transition: 0.7s;
+	   -moz-transition: 0.7s;
+	     -o-transition: 0.7s;
+	    -ms-transition: 0.7s;	
+}
+#membros-mobile {
+	margin-top: -13px;
+}
+#membros-desktop {
+	position: absolute;
+	margin-top: -62px;
+	margin-left: 870px;
+}
+
+footer > .navbar {
+	border: none;
+	min-height: 49px
+}
+
+footer .navbar-default {
+	background-color: #999; 
+	font-family: YK-ExtraLight;
+	border-color: #999;
+	border-radius: 0;
+	margin: 0;
+	padding: 0;
+}
+
+footer .navbar-default .navbar-nav > li > a {
+	color: #fff;
+	padding: 0 6px;
+ 	margin-top: 15px;
+  	border-right: 1px solid white;
+}
+
+@media (max-width: 767px) {
+	footer .navbar-default .navbar-nav > li > a {
+  		border-right: 1px solid #999;
+	}
+}
+
+footer .navbar-default .navbar-nav > li > a:hover,
+footer .navbar-default .navbar-nav > li > a:focus {
+	color: #666;
+	/*Adiciona uma transição suave ao passar o mouse*/
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	-ms-transition: 0.3s;
+}
+footer .navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+@media only screen and (min-width : 150px) and (max-width : 992px) {
+	.centro {
+		text-align: center;
+	}
+}
+/*----------------------------------------------------------Fim do Footer---------------------------------------------*/

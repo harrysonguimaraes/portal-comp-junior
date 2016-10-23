@@ -1,0 +1,11 @@
+Versão Inicial: José Natanael - 26/06/2014
+Criação da Página Orçamento: José Natanael Reis - 03/07/2014
+
+Páginas Prontas:
+	Contato:	José Natanael Reis
+	MEJ:		José Natanael Reis
+	Orçamento:	José Natanael Reis
+
+
+Decisões de implementação;
+	Galeria: Utilizar plugin Next-Gen
